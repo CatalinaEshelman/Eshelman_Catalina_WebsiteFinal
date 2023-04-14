@@ -1,0 +1,374 @@
+*{box-sizing: border-box;}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p-md {
+    padding: 20px;
+}
+
+/*navigation coding*/
+.show-desktop {
+    display: block;
+}
+.show-mobile {
+    display: none;
+}
+
+@media (max-width: 648px) {
+    .navigation {
+        padding: 20px 15px;
+    }
+    .show-desktop {
+        display: none;
+    } 
+    .show-mobile {
+        display: inline;
+    }
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    transition: 200ms;
+}
+
+.h-menu {
+    padding: 10px;
+    border-radius: 100%;
+}
+.h-menu:hover {
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+}
+/*navigation coding*/
+
+body{
+    background:#404040;
+    margin: 0px;
+}
+    
+.header{
+    display: flex;
+    align-items: center;
+     justify-content: flex-end;
+     padding: 21px;
+      background-color: pink;
+      position: relative;
+      text-decoration: none;
+}
+.header a {
+    text-decoration: none;
+}
+
+.menu{
+    color:#404040;
+    font-size: 20px;
+    padding:20px;
+}
+
+.Aboutus{
+    color:#404040;
+    font-size: 20px;
+    padding:20px;
+}
+
+.Contactus{
+    color:#404040;
+    font-size: 20px;
+    padding:20px;
+}
+
+.Giftcards{
+    color:#404040;
+    font-size: 20px;
+    padding:20px;
+}
+
+.landingimage{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.heroimage {
+        max-width: 100%;
+        height: auto;
+}
+
+.Careers{
+    color:#404040;
+    font-size: 20px;
+    padding:20px;
+}
+
+.circlelogo{
+    position: absolute;
+    top: 32px;
+    left: 33px;
+    z-index: 1;
+}
+
+.Ordernow{
+    transform: translateY(-150px);
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 auto 20px auto;
+    position: relative;
+    background: #9E8E00;
+    text-decoration: none;
+    color: white;
+    width: 300px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.section{
+    max-width:400;
+}
+
+.flex-container{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+
+.featureddishes{
+color: pink;
+text-align: center;
+padding-top: 20px;
+Padding-bottom: 20px;
+}
+
+.pinkmenubox {
+    padding-left: 50px;
+    padding-right: 100px;
+    max-width: 100%;
+    background-color: pink;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    margin: 0 auto;
+    max-width: 1088px;
+    
+}
+
+.landingimage{
+    max-width: 100%;
+    height: auto;
+}
+
+.landingimage img {
+        max-width: 100%;
+        height: auto;
+}
+
+.menucopy{
+color: #404040;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 56px;
+}
+
+.menuheader{
+display: flex;
+ content: center;
+ margin: 0 auto;
+ align-items: center;
+ position: relative;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.ABOUT{
+display:flex;
+margin: 0 auto;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+padding-top:30px;
+}
+
+.GIFT{
+display:flex;
+margin: 0 auto;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction:row-reverse;
+}
+
+.CAREERS{
+display:flex;
+margin: 0 auto;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+padding-bottom:30px;
+}
+
+.copygift{
+color:white;
+padding-left:20px;
+}
+
+.giftcardbutton{
+color:white;
+transform: translateY(-150px);
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto 20px auto;
+    position: relative;
+    background: #9E8E00;
+    color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.copyabout{
+color:white;
+padding-right:20px;
+}
+
+.copycareers{
+color:white;
+padding-right:20px;
+}
+
+.careersbutton{
+color:white;
+transform: translateY(-150px);
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto 20px auto;
+    position: relative;
+    background: #9E8E00;
+    color: white;
+    width: 250px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.featureddishesimages{
+gap: 16px;
+}
+
+.footer{
+display:flex;
+background-color: pink;
+margin: 0 auto;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.footerimage{
+padding: 10px;
+padding-right: 30px;
+}
+
+.endphotos{ 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footertext{
+display:flex;
+margin: 0 auto;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+color:#404040;
+}
+
+.fade-in, .fade-in-2{
+    opacity: 0;
+}
+
+.fade-in.active {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fade-in-2.active{
+    animation-name: fade-in-button;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-button {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-150px);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.rotate{
+  
+}
+
+.rotate.active {
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate{
+    0%{
+    transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(720deg);
+    }
+}
